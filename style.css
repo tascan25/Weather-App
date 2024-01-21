@@ -1,0 +1,176 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: "Poppins",sans-serif;
+    background: linear-gradient(to right,#047aa1,#365784);
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-family: "Poppins",sans-serif;
+    margin-top: 20px;
+    color: white;
+}
+header span{
+    font-size: 18px;
+}
+.container{
+    width: 50vw;
+    height: 70vh;
+    margin-left: 25%;
+    margin-top: 5%;
+    background: rgba(255,255,255,0.2);
+  backdrop-filter: blur(10px);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+}
+.main img{
+    width: 60px;
+}
+.search{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-family: "Poppins",sans-serif;
+gap: 10px;
+}
+.search span{
+    font-size: 20px;
+    font-weight: bolder;
+    filter: invert(1);
+}
+.search input{
+    border: none;
+    outline: none;
+    width: 250px;
+    height: 35px;
+    border-radius: 10px;
+    text-indent: 10px;
+    text-decoration: solid;
+}
+.searchbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.btn{
+    cursor: pointer;
+}
+#weathimg{
+    width: 100px;
+}
+#name{
+    font-size: 20px;
+    font-weight: bold;
+    filter: invert(1);
+}
+#temp{
+    font-size: 50px;
+    filter: invert(1);
+}
+#humidity{
+    font-size: 30px;
+    filter: invert(1);
+}
+#speed{
+    font-size: 30px;
+    filter: invert(1);
+}
+#desc{
+    font-size: 30px;
+    filter: invert(1);
+    font-weight: bolder;
+}
+.humidity{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+}
+.humidity img{
+    width: 100px;
+    filter: invert(1);
+}
+.windspeed{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+}
+.windspeed img{
+    width: 100px;
+    filter: invert(1);
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+    gap: 200px;
+}
+@media screen and (max-width: 1300px){
+    .container{
+        height: 45vh;
+    width: 60vw;
+    margin-top: 10%;
+    margin-left: 21%;
+    }
+}
+@media screen and (max-width: 950px){
+    .container{
+        width: 40vw;
+        margin-left: 6%;
+        height: 60vh;
+        margin-top: 4rem;
+    }
+    .info{
+        gap: 80px;
+    }
+    .humidity,.windspeed{
+        gap: 2px;
+    }
+    .humidity img,.windspeed img{
+        width: 80px;
+    }
+    .main{
+        gap: 20px;
+    }
+    header span{
+        display: none;
+    }
+}
+@media screen and (max-width: 450px) {
+    .container{
+        height: 70vh;
+        width: 80vw;
+        padding: 0px 8px 0px 8px;
+        margin-left: 8%;
+    }
+}
+@media screen and (max-width: 380px) {
+    .container{
+        height: 80vh;
+        width: 85vw;
+        margin-top: 4%;
+        margin-left: 6%;
+        padding-right: 10px;
+    }
+}

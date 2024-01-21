@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wheather App</title>
+    <script src="https://kit.fontawesome.com/285df39516.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2>Wheather App</h2>
+        <span>This app will help you see wheather of any city and Country</span>
+    </header>
+    <main>
+        <div class="container">
+            <div class="search">
+                <span>Enter City or Country</span>
+                <div class="searchbtn">
+                    <input  type="text">
+                    <div class="btn">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="main">
+                <img src="" alt="" id="weathimg">
+                <span id="desc"></span>
+                <span id="temp"></span>
+                <span id="name"></span>
+                <div class="info">
+                    <div class="humidity">
+                        <img src="humidity_img.png" alt="">
+                        <span id="humidity"></span>
+                    </div>
+                    <div class="windspeed">
+                        <img src="wind_speed.png" alt="">
+                        <span id="speed"></span>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
